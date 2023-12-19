@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.container_nav {
+    width: 100vw;
+    height: 12.2%;
+    background-color: rgba(255, 234, 230, 0.427);
+    backdrop-filter: blur(10px);
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_nav h1 {
+    margin: 0 20%;
+    color: rgb(181, 178, 178);
+}
+
+.nav a {
+    text-decoration: none; 
+    color: rgb(0, 97, 146);
+}
+
+.containerHead {
+    margin-bottom: -5px;
+    max-width: 1229px;
+    max-height: 800px;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(../assets/images/banner.png);
+    background-repeat: no-repeat;
+    scroll-behavior: 1s;
+    
+}
+
+.mainContent {
+    transition: 1s ;
+}
+
+.main_ctn01 {
+    margin-bottom: -5px;
+    max-width: 1229px;
+    max-height: 700px;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(../assets/images/mainBanner/1.png);
+    background-repeat: no-repeat;
+}
+
+.main_ctn02 {
+    margin-bottom: -5px;
+    max-width: 1229px;
+    max-height: 700px;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(../assets/images/mainBanner/2.png);
+    background-repeat: no-repeat;
+}
+
+.main_ctn03 {
+    margin-bottom: -5px;
+    max-width: 1229px;
+    max-height: 700px;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(../assets/images/mainBanner/3.png);
+    background-repeat: no-repeat;
+}
+
+.main_ctn04 {
+    margin-bottom: -5px;
+    max-width: 1229px;
+    max-height: 700px;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(../assets/images/mainBanner/4.png);
+    background-repeat: no-repeat;
+}
+

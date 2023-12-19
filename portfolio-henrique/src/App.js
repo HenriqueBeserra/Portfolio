@@ -1,10 +1,12 @@
 import './App.css';
-import HeaderBanner from './components/atoms/HeaderBanner';
+import Header from './components/molecules/Header';
+import Main from './components/molecules/Main';
 
 function App() {
   return (
     <div className="App">
-      <HeaderBanner />
+      <Header />
+      <Main />
     </div>
   );
 }
